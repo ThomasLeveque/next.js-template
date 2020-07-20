@@ -1,7 +1,7 @@
-import React from "react";
-import { NextPage } from "next";
+import React from 'react';
+import { NextPage } from 'next';
 
-import Layout from "@components/layout/layout";
+import Layout from '@components/layout/layout';
 
 interface HomeProps {}
 
