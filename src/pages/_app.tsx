@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import { AnimatePresence } from 'framer-motion';
 
 import { ThemeProvider } from 'styled-components';
 import { myTheme } from '../theme/my-theme';
@@ -21,7 +22,9 @@ const MyApp = ({ Component, pageProps, router }: AppProps): JSX.Element => {
       <ThemeProvider theme={myTheme}>
         <GlobalStyles />
         <Header />
-        <Component {...pageProps} key={router.route} />
+        <AnimatePresence exitBeforeEnter>
+          <Component {...pageProps} key={router.route} />
+        </AnimatePresence>
       </ThemeProvider>
     </>
   );
