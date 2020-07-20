@@ -10,7 +10,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="./favicon.ico" />
         </Head>
         <body>
           <Main />
