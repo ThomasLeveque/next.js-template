@@ -9,6 +9,12 @@ import { myTheme } from '../theme/my-theme';
 import Header from '@components/header/header';
 import { GlobalStyles } from '@styles/global.styles';
 
+const handleExitComplete = () => {
+  if (typeof window !== 'undefined') {
+    window.scrollTo({ top: 0 });
+  }
+}
+
 const MyApp = ({ Component, pageProps, router }: AppProps): JSX.Element => {
   return (
     <>
@@ -22,7 +28,7 @@ const MyApp = ({ Component, pageProps, router }: AppProps): JSX.Element => {
       <ThemeProvider theme={myTheme}>
         <GlobalStyles />
         <Header />
-        <AnimatePresence exitBeforeEnter>
+        <AnimatePresence exitBeforeEnter onExitComplete={handleExitComplete}>
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
       </ThemeProvider>
