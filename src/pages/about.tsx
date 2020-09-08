@@ -6,7 +6,11 @@ import Layout from '@components/layout/layout';
 interface AboutProps {}
 
 const About: NextPage<AboutProps> = () => {
-  return <Layout title="About">About</Layout>;
+  return (
+    <Layout title="About">
+      <h1>About</h1>
+    </Layout>
+  );
 };
 
 export default About;
