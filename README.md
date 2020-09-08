@@ -1,30 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js template
 
-## Getting Started
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
-First, run the development server:
+A template to start a new project using Next.js
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Clone or fork the project ``git@github.com:ThomasLeveque/next.js-template.git`` 
+* Run ``yarn`` command to install all the dependencies
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Learn More
+## Launch
 
-To learn more about Next.js, take a look at the following resources:
+* Run ``yarn dev`` command to start the project in dev mode
+* Run ``yarn start`` command to start the project
+* Run ``yarn build`` command to build the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Finally you can start using Next.js to create awesome, scallable and ready for production apps 🔥🔥🔥
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Made with
 
-## Deploy on Vercel
+* [next](https://nextjs.org) - The React Framework
+for Production
+* [react](https://reactjs.org) - A JavaScript library for building user interfaces
+* [typescript](https://www.typescriptlang.org) - Typed JavaScript at Any Scale.
+* [styled-components](https://styled-components.com) - Visual primitives for the component age
+* [framer-motion](https://www.framer.com/motion) - A production-ready motion library for React
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Authors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* **Thomas Leveque** _alias_ [ThomasLeveque](https://github.com/ThomasLeveque)
