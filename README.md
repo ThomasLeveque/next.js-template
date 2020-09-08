@@ -6,7 +6,7 @@ A template to start a new project using Next.js
 
 ## Install
 
-* Clone or fork the project ``git@github.com:ThomasLeveque/next.js-template.git`` 
+* Clone with the following command ``npx degit git@github.com:ThomasLeveque/next.js-template.git <folder-name>`` 
 * Run ``yarn`` command to install all the dependencies
 
 
