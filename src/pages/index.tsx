@@ -2,13 +2,13 @@ import React from 'react';
 import { NextPage } from 'next';
 import Link from 'next/link';
 
-import Layout from '@components/layout/layout';
+import Layout from '@components/layout';
 
 interface HomeProps {}
 
 const Home: NextPage<HomeProps> = () => {
   return (
-    <Layout title="Home">
+    <Layout>
       <h1>Home</h1>
       <Link href="/posts/1">
         <a>Post 1</a>
