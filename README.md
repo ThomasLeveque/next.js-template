@@ -26,7 +26,7 @@ Finally you can start using Next.js to create awesome, scallable and ready for p
 for Production
 * [react](https://reactjs.org) - A JavaScript library for building user interfaces
 * [typescript](https://www.typescriptlang.org) - Typed JavaScript at Any Scale.
-* [styled-components](https://styled-components.com) - Visual primitives for the component age
+* [tailwindcss](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
 * [framer-motion](https://www.framer.com/motion) - A production-ready motion library for React
 
 ## Authors
