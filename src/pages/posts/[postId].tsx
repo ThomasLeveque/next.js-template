@@ -12,7 +12,8 @@ const Post: NextPage<PostProps> = () => {
 
   return (
     <Layout>
-      <h1>Post: {postId}</h1>
+      <h1 className="text-5xl">Post: {postId}</h1>
+      <p>This is a post</p>
     </Layout>
   );
 };

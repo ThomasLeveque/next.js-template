@@ -5,6 +5,8 @@ import { AnimatePresence } from 'framer-motion';
 
 import Header from '@components/header';
 
+import '../../styles/index.css';
+
 const handleExitComplete = () => {
   if (typeof window !== 'undefined') {
     window.scrollTo({ top: 0 });

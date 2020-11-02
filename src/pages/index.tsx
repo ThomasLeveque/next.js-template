@@ -9,15 +9,15 @@ interface HomeProps {}
 const Home: NextPage<HomeProps> = () => {
   return (
     <Layout>
-      <h1>Home</h1>
+      <h1 className="text-5xl">Home</h1>
       <Link href="/posts/1">
-        <a>Post 1</a>
+        <a className="block">Post 1</a>
       </Link>
       <Link href="/posts/2">
-        <a>Post 2</a>
+        <a className="block">Post 2</a>
       </Link>
       <Link href="/posts/3">
-        <a>Post 3</a>
+        <a className="block">Post 3</a>
       </Link>
     </Layout>
   );

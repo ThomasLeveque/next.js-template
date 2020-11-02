@@ -8,7 +8,7 @@ interface AboutProps {}
 const About: NextPage<AboutProps> = () => {
   return (
     <Layout>
-      <h1>About</h1>
+      <h1 className="text-5xl">About</h1>
     </Layout>
   );
 };

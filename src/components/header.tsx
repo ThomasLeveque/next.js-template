@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 const Header: React.FC = () => {
   return (
-    <header>
+    <header className="py-3 px-6 flex justify-end">
       <Link href="/">
-        <a>Home</a>
+        <a className="pr-3">Home</a>
       </Link>
       <Link href="/about">
         <a>About</a>
