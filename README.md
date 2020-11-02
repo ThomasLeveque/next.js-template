@@ -6,7 +6,9 @@ A template to start a new project using Next.js
 
 ## Install
 
-* Clone with the following command ``npx degit git@github.com:ThomasLeveque/next.js-template.git <folder-name>`` 
+* Clone with the following command ``npx degit git@github.com:ThomasLeveque/next.js-template.git#branch-name <folder-name>`` 
+  - Branch `master` using [styled-components](https://styled-components.com)
+  - Branch `with-tailwindcss` using [tailwindcss](https://tailwindcss.com/)
 * Run ``yarn`` command to install all the dependencies
 
 
