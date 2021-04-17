@@ -4,6 +4,12 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: { jsx: true },
   },
+  env: {
+    node: true,
+    browser: true,
+    es6: true,
+    jest: true,
+  },
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -18,7 +24,7 @@ module.exports = {
   rules: {
     // Include .prettierrc.js rules
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
-
     'react/prop-types': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
   },
-}
+};

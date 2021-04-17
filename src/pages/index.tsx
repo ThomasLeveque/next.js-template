@@ -1,12 +1,10 @@
-import React from 'react';
 import { NextPage } from 'next';
 import Link from 'next/link';
+import React from 'react';
 
 import Layout from '@components/layout';
 
-interface HomeProps {}
-
-const Home: NextPage<HomeProps> = () => {
+const Home: NextPage = () => {
   return (
     <Layout>
       <h1 className="text-5xl">Home</h1>

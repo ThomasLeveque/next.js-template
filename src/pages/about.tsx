@@ -1,11 +1,9 @@
-import React from 'react';
 import { NextPage } from 'next';
+import React from 'react';
 
 import Layout from '@components/layout';
 
-interface AboutProps {}
-
-const About: NextPage<AboutProps> = () => {
+const About: NextPage = () => {
   return (
     <Layout>
       <h1 className="text-5xl">About</h1>

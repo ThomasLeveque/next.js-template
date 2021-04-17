@@ -1,7 +1,7 @@
-import React from 'react';
+import { AnimatePresence } from 'framer-motion';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { AnimatePresence } from 'framer-motion';
+import React from 'react';
 
 import Header from '@components/header';
 
