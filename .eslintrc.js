@@ -24,7 +24,11 @@ module.exports = {
   rules: {
     // Include .prettierrc.js rules
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
+
     'react/prop-types': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
+    'react/display-name': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
   },
 };
