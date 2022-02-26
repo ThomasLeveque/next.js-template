@@ -1,10 +1,8 @@
+import Header from '@components/header';
 import { AnimatePresence } from 'framer-motion';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
-
-import Header from '@components/header';
-
 import '../../styles/index.css';
 
 const handleExitComplete = () => {
