@@ -18,6 +18,8 @@ const MyApp = ({ Component, pageProps, router }: AppProps): JSX.Element => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      {/* Will be fix soon */}
+      {/* @ts-ignore */}
       <AnimatePresence exitBeforeEnter onExitComplete={handleExitComplete}>
         <Component {...pageProps} key={router.pathname} />
       </AnimatePresence>
